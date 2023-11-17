@@ -14,3 +14,8 @@ console.log(pi); */
 let radius = 8;
 let circle = radius * 2 * pi;
 console.log(circle);
+
+/* Esercizoo 3 */
+let name = "carlo";
+name = "marco";
+console.log(name)
