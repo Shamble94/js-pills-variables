@@ -15,7 +15,13 @@ let radius = 8;
 let circle = radius * 2 * pi;
 console.log(circle);
 
-/* Esercizoo 3 */
+/* Esercizio 3 */
 let name = "carlo";
 name = "marco";
 console.log(name)
+
+/* Esercizio 4 */
+let greet = "Ciao, Mondo!"
+console.log(greet)
+
+/* Esercizio 4b */
