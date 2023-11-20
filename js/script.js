@@ -21,10 +21,13 @@ name = "marco";
 console.log(name);
 
 /* Esercizio 4 */
-let greet = "Ciao, Mondo!":
+let greet = "Ciao, Mondo!";
 console.log(greet);
 
 /* Esercizio 4b */
-let greet = "Come stai, Mondo";
-console.log(greet);
+/* let greet = "Come stai, Mondo";
+console.log(greet); */
 
+/* Esercizio 4c */
+greet = `${greet} Come stai?`
+console.log(greet)
