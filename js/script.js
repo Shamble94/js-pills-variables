@@ -18,10 +18,13 @@ console.log(circle);
 /* Esercizio 3 */
 let name = "carlo";
 name = "marco";
-console.log(name)
+console.log(name);
 
 /* Esercizio 4 */
-let greet = "Ciao, Mondo!"
-console.log(greet)
+let greet = "Ciao, Mondo!":
+console.log(greet);
 
 /* Esercizio 4b */
+let greet = "Come stai, Mondo";
+console.log(greet);
+
