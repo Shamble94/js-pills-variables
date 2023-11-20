@@ -31,3 +31,16 @@ console.log(greet); */
 /* Esercizio 4c */
 greet = `${greet} Come stai?`
 console.log(greet)
+
+
+let num1 = 40;
+let num2 = 30;
+let comparison;
+
+if(num1 > num2){
+     comparison = num1;
+    
+}else{
+    comparison = num2;
+}
+console.log(comparison);
