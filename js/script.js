@@ -33,14 +33,28 @@ greet = `${greet} Come stai?`
 console.log(greet)
 
 
-let num1 = 40;
+/* let num1 = 40;
 let num2 = 30;
 let comparison;
 
-if(num1 > num2){
+/* if(num1 > num2){
      comparison = num1;
     
 }else{
     comparison = num2;
 }
 console.log(comparison);
+ */
+
+
+let persona_1 = "pippo";
+let persona_2 = "gianni";
+let comparison;
+
+if(persona_1 == persona_2){
+    comparison = "Le stringhe sono uguali"
+    console.log(comparison)
+}else{
+    comparison = "le stringhe non sono uguali"
+    console.log(comparison)
+}
