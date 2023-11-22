@@ -45,7 +45,7 @@ let comparison;
 }
 console.log(comparison);
  */
-
+/* 
 
 let persona_1 = "pippo";
 let persona_2 = "gianni";
@@ -56,5 +56,17 @@ if(persona_1 == persona_2){
     console.log(comparison)
 }else{
     comparison = "le stringhe non sono uguali"
+    console.log(comparison)
+}
+ */
+
+let var_1 = 1
+let comparison;
+
+if (var_1 === "15"){
+    comparison = true
+    console.log(comparison)
+}else{
+    comparison = false
     console.log(comparison)
 }
