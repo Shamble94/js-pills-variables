@@ -70,3 +70,12 @@ if (var_1 === "15"){
     comparison = false
     console.log(comparison)
 }
+
+/* 
+for ( i=1; i<42; i++){
+    console.log(i)
+} */
+
+for (i = 42; i >= 1; i--){
+    console.log(i)
+}
