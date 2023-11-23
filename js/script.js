@@ -80,10 +80,20 @@ for (i = 42; i >= 1; i--){
     console.log(i)
 }
 
-const numbers = [1,2,3,4,5,6,7,8]
+/* const numbers = [1,2,3,4,5,6,7,8]
 console.log(numbers)
 
 const fruits = ["mela", "banana", "pera", "albicocca", "mango", "kiwi", "papaya"]
 console.log(fruits)
 
-console.log(fruits.length)
+console.log(fruits.length) */
+
+const numOfElements = parseInt(prompt("Digita un numero intero"))
+console.log(numOfElements, typeof numOfElements)
+let numbers = []
+for (let i = 1; i <= numOfElements; i++){
+    numbers.push(i)
+}
+
+console.log(numbers)
+console.log(numbers.length);
