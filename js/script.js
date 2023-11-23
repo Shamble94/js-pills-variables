@@ -85,3 +85,5 @@ console.log(numbers)
 
 const fruits = ["mela", "banana", "pera", "albicocca", "mango", "kiwi", "papaya"]
 console.log(fruits)
+
+console.log(fruits.length)
