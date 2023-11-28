@@ -170,3 +170,6 @@ ciaoMondo()
 function somma (a,b){
     return a + b
 }
+
+ let risultato = somma(1,2);
+ console.log(risultato)
