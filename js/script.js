@@ -88,7 +88,7 @@ console.log(fruits)
 
 console.log(fruits.length) */
 
-const numOfElements = parseInt(prompt("Digita un numero intero"))
+/* const numOfElements = parseInt(prompt("Digita un numero intero"))
 console.log(numOfElements, typeof numOfElements)
 let numbers = []
 for (let i = 1; i <= numOfElements; i++){
@@ -97,3 +97,76 @@ for (let i = 1; i <= numOfElements; i++){
 
 console.log(numbers)
 console.log(numbers.length);
+ */
+
+/* Esercizi 24/11/23 */
+
+/* let n1 = parseInt(prompt ("Inserisci il primo numero"))
+let n2 = parseInt(prompt ("Inserisci il secondo numero"))
+if ( n1 > n2 ){
+    console.log(n1)
+    
+}else{
+    console.log(n2)
+   */
+/* } */
+/* 
+let somma = 0;
+for (let i = 0; i  < 10 ; i++){
+    let numero = parseInt(prompt("inserisci un numero"));
+    somma += numero;
+}
+console.log(somma);
+ */
+
+
+/* 
+const invitati = ["gino", "pino", "lino", "paolo"]
+let invito = false;
+let nome = prompt("Inserisci il tuo nome")
+for (let i=0; i<invitati.length; i++){
+    if( invitati[i] == nome){
+        invito = true
+    }      
+}
+
+if (invito == true){
+    console.log("puoi partecipare")
+}else{
+    console.log("non puoi partecipare")
+} */
+
+/* let numeri = [];
+for (let i=1; i<= 6; i++){
+    let numero = prompt("inserisci il numero")
+    if (numero % 2 != 0){
+        numeri.push(numero);
+       
+    }
+}
+console.log(numeri) */
+
+/* let num = prompt("Inserisci quanti numeri vuoi visualizzare")
+let a = 0, b = 1;
+let c;
+let i = 0
+
+while(i < num){
+    c = a + b;
+    a = b;
+    b = c;
+    
+    console.log(c)
+
+    i++
+}
+ */
+function ciaoMondo(){
+    alert("Ciao Mondo!")
+}
+
+ciaoMondo()
+
+function somma (a,b){
+    return a + b
+}
