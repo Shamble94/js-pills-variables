@@ -161,7 +161,7 @@ while(i < num){
     i++
 }
  */
-function ciaoMondo(){
+/* function ciaoMondo(){
     alert("Ciao Mondo!")
 }
 
@@ -173,3 +173,10 @@ function somma (a,b){
 
  let risultato = somma(1,2);
  console.log(risultato)
+
+
+  */
+
+ function getOneStringFromTwo(string1, string2){
+    return string1 +" " + string2
+}
