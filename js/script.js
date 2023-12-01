@@ -177,10 +177,17 @@ function somma (a,b){
 
   */
 
- function getOneStringFromTwo(string1, string2){
+/*  function getOneStringFromTwo(string1, string2){
     return string1 +" " + string2
 }
 let str1 = "paolo"
 let str2 = "piero"
 let str3 = getOneStringFromTwo(str1,str2)
-console.log(str3)
+console.log(str3) */
+
+
+
+setTimeout(function(){
+    alert("Ciao a tutti")
+,3000})
+
