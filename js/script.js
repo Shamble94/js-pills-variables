@@ -187,7 +187,11 @@ console.log(str3) */
 
 
 
-setTimeout(function(){
+/* setTimeout(function(){
     alert("Ciao a tutti")
 ,3000})
-
+ */
+let conto = 0;
+setInterval(function(){ 
+    console.log(conto++)
+},1000)
